@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Riftcoil</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --ink: #1d2a33;
+    --ink-light: #52626d;
+    --bg: #f4f7f8;
+    --card: #ffffff;
+    --rule: #d8e1e5;
+    --accent: #0f7c78;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #e6f1f5;
+      --ink-light: #9fb2bc;
+      --bg: #07101b;
+      --card: #0e1b27;
+      --rule: #1f3340;
+      --accent: #5eead4;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+    line-height: 1.65;
+  }
+  .wrap {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  header {
+    margin-bottom: 36px;
+  }
+  h1 {
+    font-size: 1.75rem;
+    margin: 0 0 6px;
+    font-weight: 600;
+  }
+  .meta {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 0.85rem;
+    color: var(--ink-light);
+    letter-spacing: 0.02em;
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin: 2.2em 0 0.6em;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--rule);
+  }
+  p, li { font-size: 1rem; color: var(--ink); }
+  ul { padding-left: 1.3em; }
+  li { margin-bottom: 0.5em; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 1em 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 0.92rem;
+  }
+  .card strong { color: var(--accent); }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 3em;
+    padding-top: 1.2em;
+    border-top: 1px solid var(--rule);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 0.85rem;
+    color: var(--ink-light);
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Privacy Policy — Riftcoil</h1>
+    <div class="meta">Last updated: October 4, 2026 &nbsp;·&nbsp; App package: com.akkeros.riftcoil</div>
+  </header>
+
+  <p>Riftcoil ("the app") is a single-player tactical deckbuilder game published by AK KEROS LTD ("we", "us"). This policy explains what data the app handles, what stays on your device, and what leaves it.</p>
+
+  <div class="card">
+    <strong>In short:</strong> Riftcoil has no accounts, no sign-in, no ads, no analytics, and no crash reporting. Your saves, progress and settings stay on your device and are never sent to us. The one optional in-app purchase, the Starter Pack, is handled entirely by Google Play — see Purchases below. The network permissions the app holds come from Google Play Billing and are explained under Permissions.
+  </div>
+
+  <h2>Usage analytics and advertising</h2>
+  <p>Riftcoil does not include any analytics, advertising, attribution, or crash-reporting SDK. It does not use the Android advertising ID. The game keeps its own battle statistics (for example turns taken, cards played and damage dealt) to show you your run history; these statistics are stored on your device only and are never uploaded.</p>
+  <p>If that changes in a future version, this page and its "Last updated" date will change with it, before the new version is released.</p>
+
+  <h2>Purchases</h2>
+  <p>Riftcoil offers one optional one-time in-app purchase, the <strong>Starter Pack</strong>, which unlocks an additional commander and two additional ships. It is not a subscription, and the full game can be played without it.</p>
+  <p>The transaction itself is processed entirely by Google Play. We never see or handle your payment details, name, email address, or billing address. What the app receives back is a purchase token, the product ID, and the purchase state, used only to decide whether the Starter Pack is unlocked and to acknowledge the purchase to Google Play as its rules require. The result is stored on your device as a single true/false setting. Nothing about your purchase is sent to us or anyone else by the app.</p>
+  <p>The purchase is tied to whichever Google account is signed in to Google Play — that is also what lets "Restore purchases" work if you reinstall the app or move to a new device, since the game itself has no account system. Each time the app opens or returns to the foreground, it asks Google Play which purchases that account owns and updates the local unlock flag to match, so the Starter Pack can also become locked again, for example after a refund. If Google Play cannot be reached at that moment, the app keeps the last known state so you can keep playing offline.</p>
+  <p>Google's handling of the transaction is governed by Google's own privacy policy, not this one: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
+
+  <h2>Information the app stores on your device</h2>
+  <p>All of the following is stored locally on your device only, in the app's private storage. We do not receive, see, or have access to any of it:</p>
+  <ul>
+    <li><strong>Game progress</strong> — your current expedition (commander, ship, deck, modules, Hull, map position), finished expedition history and battle statistics, and roster unlocks such as the sector 3 reward.</li>
+    <li><strong>Preferences</strong> — sound on/off, volume, text size, animations, keep-screen-on, and whether you have seen the training sortie.</li>
+    <li><strong>Purchase status</strong> — the single true/false Starter Pack flag described under Purchases.</li>
+  </ul>
+  <p>The app does not ask you to create an account, sign in, or provide any personal information such as your name, email address, contacts, photos, or location.</p>
+
+  <h2>Device backup</h2>
+  <p>Riftcoil allows Android's standard app backup. If you have turned on backup in your device's settings, Android may include the game's saves and preferences in your device backup to your Google account, so your progress can be restored on a new device. This backup is performed by Android and Google, not by Riftcoil; we have no access to it. You can manage or turn off backup in your device's system settings.</p>
+
+  <h2>Permissions the app uses</h2>
+  <p>Riftcoil requests no runtime permissions — it never asks for access to your camera, microphone, contacts, photos, files, or location. Its manifest includes the following install-time permissions, all added by the Google Play Billing library:</p>
+  <ul>
+    <li><strong>Google Play billing</strong> — lets the app ask the Google Play Store app on your device to show the Starter Pack purchase and report which purchases you own.</li>
+    <li><strong>Internet and network state</strong> — held by the Google Play Billing library for its own operation. The purchase itself is carried out by the Google Play Store app on your device. Riftcoil makes no network requests of its own: the game, its art, sounds and fonts are all bundled with the app and work fully offline.</li>
+  </ul>
+
+  <h2>Data sharing</h2>
+  <p>We do not sell your data, and we do not share it with third parties. Riftcoil never sends your saves, statistics, or settings anywhere. The only exchange of data with a third party is the purchase flow described above, between your device and Google Play. Separately, the Google Play Billing library may send its own diagnostic data to Google; that activity is Google's, governed by Google's own privacy policy, and we have no visibility into it or access to it.</p>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li><strong>Erase progress</strong> — <strong>Settings → Erase all progress</strong> deletes your current expedition, run history and earned unlocks from the device. It does not remove a Starter Pack purchase, because that belongs to your Google Play account.</li>
+    <li><strong>Everything stored on your device</strong> — clearing the app's storage or uninstalling the app removes all of its local data completely.</li>
+    <li><strong>Purchases</strong> — your purchase history and refunds are managed through Google Play.</li>
+  </ul>
+  <p>We have no server-side copy of your data to delete on request, because we never receive one.</p>
+
+  <h2>Children's privacy</h2>
+  <p>Riftcoil is a general-audience strategy game and is not directed at children under 13. The app collects no personal information from anyone, children included.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If how the app handles data changes — for example if analytics or crash reporting are added — we will update this page and its "Last updated" date, and the Play Store listing's Data safety section along with it.</p>
+
+  <h2>Contact us</h2>
+  <p>Questions about this policy or your data can be sent to <a href="mailto:info@akkeros.com">info@akkeros.com</a>.</p>
+
+  <footer>
+    AK KEROS LTD &nbsp;·&nbsp; Riftcoil &nbsp;·&nbsp; com.akkeros.riftcoil
+  </footer>
+</div>
+</body>
+</html>
